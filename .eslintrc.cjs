@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ["@yext/eslint-config/typescript-react"],
+  extends: ["@yext/eslint-config@dev/upgrade-babel-traverse/typescript-react"],
   ignorePatterns: [
     "**/lib",
     "**/build",
